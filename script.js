@@ -1,7 +1,7 @@
 const rating = function (grade) {
   let starsMaindiv = document.getElementById("stars-div");
   starsMaindiv.innerHTML = "";
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 1; i <= 10; i++) {
     let spanStar = document.createElement("span");
     let image = document.createElement("img");
     image.setAttribute("src", "./assets/star.svg");
@@ -20,7 +20,7 @@ const rating = function (grade) {
 //creates the stars
 const createStars = function () {
   let starsMaindiv = document.getElementById("stars-div");
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 1; i <= 10; i++) {
     let spanStar = document.createElement("span");
     let image = document.createElement("img");
     image.setAttribute("src", "/assets/star.svg");
